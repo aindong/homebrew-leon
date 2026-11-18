@@ -2,8 +2,8 @@ cask "leon" do
   arch arm: "arm64", intel: "x86_64"
 
   version "0.1.0"
-  sha256 arm:   "f23db22e3d8b3e81355b57a57d5d6a46e04057dcf094fb2341cb50e24457fd67",
-         intel: "8aea1bf960d5188dfe325d051e05635b5a2b2c0929c852443c98156b5e57527b"
+  sha256 arm:   "bdc268ec827301c5a873a78939c41e7f6a9abae732f2c2ac87dae51c70fb535f",
+         intel: "a4e182e30f53d12b3c75031195ed6e0be79d5bac5a6a76589a2764ef620f527c"
 
   url "https://github.com/aindong/leon-cli/releases/download/v#{version}/Leon-#{version}-macos-#{arch}.zip"
   name "Leon"
