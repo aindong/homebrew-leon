@@ -5,23 +5,23 @@ class Leon < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/aindong/leon-cli/releases/download/v0.1.1/leon-0.1.1-arm64-macos.tar.gz"
-      sha256 "a9ac642a34255cfb515df7c0bb4bcce110b0985910da7f3bdf7bedab344f098b"
+      url "https://github.com/aindong/leon-cli/releases/download/v0.2.0/leon-0.2.0-arm64-macos.tar.gz"
+      sha256 "51a95f6387ef8e0dcc4640298d5bbae6d789a76051ba1913c2e28571ccee1024"
     end
     on_intel do
-      url "https://github.com/aindong/leon-cli/releases/download/v0.1.1/leon-0.1.1-x86_64-macos.tar.gz"
-      sha256 "cc8a35f9697260941209878bce4b0658dadfca06a9139e4a3a3d0dfc302b3b9d"
+      url "https://github.com/aindong/leon-cli/releases/download/v0.2.0/leon-0.2.0-x86_64-macos.tar.gz"
+      sha256 "446c845eaa7233d74aa557a1ed306d644f6ccb12d7977993eafe8e595f45aeb4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aindong/leon-cli/releases/download/v0.1.1/leon-0.1.1-aarch64-linux.tar.gz"
-      sha256 "0fd0e5f74c19afdc8273dbb83b73be60a69963e1bcff317f0b65dafc98ab5041"
+      url "https://github.com/aindong/leon-cli/releases/download/v0.2.0/leon-0.2.0-aarch64-linux.tar.gz"
+      sha256 "114fb732f8e641c0ff094730a7aa79280270ff4b49727bf659f6f71f922192c0"
     end
     on_intel do
-      url "https://github.com/aindong/leon-cli/releases/download/v0.1.1/leon-0.1.1-x86_64-linux.tar.gz"
-      sha256 "70aa8221081c7383841cf4907e93798ec34c75217d7ae8ffc6a89c984d28f186"
+      url "https://github.com/aindong/leon-cli/releases/download/v0.2.0/leon-0.2.0-x86_64-linux.tar.gz"
+      sha256 "fb2869806bda94db2498a1ca1a609518129605091b43ef399c5784ce03c2976a"
     end
   end
 
